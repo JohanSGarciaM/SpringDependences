@@ -3,9 +3,9 @@ package edu.eci.arsw.springdemo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-
-public class GrammarChecker {
-
+@Service
+public class GrammarChecker{
+    @Autowired
 	SpellChecker sc;
 
 	String x;
